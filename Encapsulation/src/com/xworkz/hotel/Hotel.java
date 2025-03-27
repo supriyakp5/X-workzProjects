@@ -1,5 +1,6 @@
-public class Hotel {
+package com.xworkz.hotel;
 
+public class Hotel {
     private String name;
     private String area;
 
@@ -11,7 +12,7 @@ public class Hotel {
     }
     public String getName()
     {
-         return name;
+        return name;
     }
     public String getArea()
     {
@@ -26,3 +27,4 @@ public class Hotel {
         this.area=area;
     }
 }
+

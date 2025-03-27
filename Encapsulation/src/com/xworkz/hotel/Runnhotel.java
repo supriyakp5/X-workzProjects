@@ -1,3 +1,5 @@
+package com.xworkz.hotel;
+
 public class Runnhotel {
 
     public static void main(String[] args){
@@ -5,5 +7,4 @@ public class Runnhotel {
         System.out.println("hotel:"+hotel.getName());
         System.out.println("hotel:"+hotel.getArea());
     }
-
 }
