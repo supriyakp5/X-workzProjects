@@ -51,6 +51,19 @@ public class Runner {
         bike.fuelUp();
 
 
+        Person person=new Student();
+        person.details();
+        person.walk();
+        person.eat();
+        person.sleep();
+
+        Employee employee=new Company();
+        employee.work();
+        employee.Projects();
+        employee.working();
+
+
+
 
     }
 
