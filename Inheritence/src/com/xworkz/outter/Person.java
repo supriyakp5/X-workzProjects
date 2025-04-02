@@ -20,5 +20,6 @@ public class Person {
     }
     public void details() {
 
+
     }
 }
