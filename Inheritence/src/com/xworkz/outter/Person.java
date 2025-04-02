@@ -18,8 +18,7 @@ public class Person {
     {
         System.out.println("walk a 1km ");
     }
-    public void details()
-    {
+    public void details() {
 
     }
 }
