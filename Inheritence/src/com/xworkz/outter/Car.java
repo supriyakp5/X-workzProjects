@@ -5,7 +5,7 @@ public class Car extends Vehicle{
     public Car()
     {
         super();
-      System.out.println("car");
+      System.out.println("car ");
     }
 
 }

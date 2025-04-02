@@ -4,7 +4,7 @@ public class Flyable {
 
     public Flyable()
     {
-        System.out.println("flyable");
+        System.out.println("flyable ");
     }
     public void fly()
     {

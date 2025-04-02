@@ -8,7 +8,7 @@ public class Vehicle {
     }
     public void type()
     {
-        System.out.println("type of vehicle");
+        System.out.println("type  sof vehicle");
     }
     public void fuel()
     {

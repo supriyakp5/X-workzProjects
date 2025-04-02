@@ -10,7 +10,7 @@ public class Home {
 
     public void address()
     {
-        System.out.println("its a address super class");
+        System.out.println("its a address super  class");
     }
     public void garden()
     {
