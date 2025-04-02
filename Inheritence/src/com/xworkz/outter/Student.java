@@ -5,5 +5,6 @@ public class Student extends Person {
     {
         super();
         System.out.println("is subclass");
+
     }
 }
