@@ -34,5 +34,18 @@ public class Runner {
         myCoffee.prepare();
         myCoffee.addMilk();
         myCoffee.addSugar();
+
+        Rectangle rect = new Rectangle();
+        rect.draw();
+        rect.resize();
+        rect.calculateArea();
+        rect.calculatePerimeter();
+
+        Bicycle1 bike = new Bicycle1();
+        bike.move();
+        bike.stop();
+        bike.pedal();
+        bike.ringBell();
+
     }
 }
