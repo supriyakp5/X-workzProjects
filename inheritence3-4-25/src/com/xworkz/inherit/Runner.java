@@ -16,12 +16,6 @@ public class Runner {
         myLaptop.portability();
         myLaptop.batteryLife();
 
-        Flower rose = new Flower();
-        rose.grow();
-        rose.photosynthesize();
-        rose.bloom();
-        rose.produceScent();
-
         Hammer myHammer = new Hammer();
         myHammer.use();
         myHammer.maintain();
@@ -33,7 +27,7 @@ public class Runner {
         myCoffee.consume();
         myCoffee.prepare();
         myCoffee.addMilk();
-        myCoffee.addSugar();
+        myCoffee.addSugar(); 
 
         Rectangle rect = new Rectangle();
         rect.draw();
