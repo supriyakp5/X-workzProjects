@@ -27,7 +27,7 @@ public class Runner {
         myCoffee.consume();
         myCoffee.prepare();
         myCoffee.addMilk();
-        myCoffee.addSugar(); 
+        myCoffee.addSugar();
 
         Rectangle rect = new Rectangle();
         rect.draw();
