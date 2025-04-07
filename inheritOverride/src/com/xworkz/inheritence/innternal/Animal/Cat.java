@@ -15,4 +15,7 @@ public class Cat extends Animal {
     {
         System.out.println("Animal move --child");
     }
+    public void pet(){
+        System.out.println("new method pet --child");
+    }
 }

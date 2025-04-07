@@ -31,4 +31,7 @@ public class ScienceBook extends Book {
     public void getLanguage() {
         System.out.println("ScienceBook getLanguage method--child");
     }
+    public void price(){
+        System.out.println("new method --child");
+    }
 }

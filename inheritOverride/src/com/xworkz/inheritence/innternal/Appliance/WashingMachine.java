@@ -30,4 +30,8 @@ class WashingMachine extends Appliance {
     public void getWarranty() {
         System.out.println("WashingMachine getWarranty method--child");
     }
+    public void addWater()
+    {
+        System.out.println("new method --child");
+    }
 }

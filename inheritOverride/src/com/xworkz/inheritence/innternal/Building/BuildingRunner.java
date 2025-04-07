@@ -26,5 +26,11 @@ public class BuildingRunner {
         b3.getLocation();
         b3.getFloors();
         b3.getMaterial();
+
+        System.out.println("____________casting__________");
+        Office office=new Office();
+        office.google(b1);
+        office.google(b2);
+        office.google(b3);
     }
 }

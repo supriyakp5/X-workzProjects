@@ -30,5 +30,8 @@ public class OnlineBookstore extends Bookstore{
     public void getOwner() {
         System.out.println("Owner: Digital Inc. - child");
     }
+    public void bookBuy(){
+        System.out.println("new method ---child");
+    }
 
 }

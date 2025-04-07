@@ -30,4 +30,8 @@ class SavingsAccount extends BankAccount {
     public void getInterestRate() {
         System.out.println("SavingsAccount getInterestRate method--child");
     }
+    public void balance()
+    {
+        System.out.println("new method --child");
+    }
 }

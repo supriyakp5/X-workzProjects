@@ -26,6 +26,12 @@ public class BookRunner {
         obj3.getPublisher();
         obj3.getPages();
         obj3.getLanguage();
+
+        System.out.println("____________casting______________");
+        Novels novels=new Novels();
+        novels.gk(obj1);
+        novels.gk(obj1);
+        novels.gk(obj3);
     }
 }
 

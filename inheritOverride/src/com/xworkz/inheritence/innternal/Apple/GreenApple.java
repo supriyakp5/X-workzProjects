@@ -6,24 +6,32 @@ public class GreenApple extends Apple {
         System.out.println("Running non-arg constructor GreenApple");
     }
     @Override
-    public void taste() {
+    public void taste()
+    {
         System.out.println("Apple has a sweet and tangy taste--child");
     }
     @Override
-    public void provideNutrition() {
+    public void provideNutrition()
+    {
         System.out.println("Apple provides essential nutrients--child");
     }
     @Override
-    public void boostImmunity() {
+    public void boostImmunity()
+    {
         System.out.println("Apple helps in boosting immunity--child");
     }
     @Override
-    public void availableInSeasons() {
+    public void availableInSeasons()
+    {
         System.out.println("Apples are available in different seasons--child");
     }
     @Override
-    public void usedInCooking() {
+    public void usedInCooking()
+    {
         System.out.println("Apple is used in making pies and juices--child");
+    }
+    public void slice(){
+        System.out.println("nwe method slice --child");
     }
 }
 

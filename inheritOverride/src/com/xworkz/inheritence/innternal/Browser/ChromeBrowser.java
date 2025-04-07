@@ -25,5 +25,9 @@ public class ChromeBrowser extends Browser{
     public void close() {
         System.out.println("Closing Chrome browser - child");
     }
+    public void youtube()
+    {
+        System.out.println("new method ---child");
+    }
 
 }

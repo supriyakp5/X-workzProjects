@@ -26,6 +26,16 @@ public class AccountRunner {
         a3.getEmail();
         a3.getCreationDate();
         a3.getStatus();
-    }
-    }
 
+
+        System.out.println("------------casting----------------");
+
+
+        Accountcast accountcast=new Accountcast();
+        accountcast.savingAccount(a1);
+        accountcast.savingAccount(a2);
+        accountcast.savingAccount(a3);
+
+
+    }
+    }

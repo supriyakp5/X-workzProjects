@@ -23,5 +23,12 @@ public class BrowserRunner {
         b3.search();
         b3.refresh();
         b3.close();
+
+        System.out.println("_______casting_________");
+        Chrome chrome=new Chrome();
+        chrome.website(b1);
+        chrome.website(b2);
+        chrome.website(b3);
+
     }
 }

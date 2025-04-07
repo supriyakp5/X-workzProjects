@@ -25,4 +25,7 @@ public class Painter extends Artist{
     public void study() {
         System.out.println("Studying color theory - child");
     }
+    public void newPaint(){
+        System.out.println("new method --child");
+    }
 }

@@ -30,4 +30,9 @@ class UserAccount extends Account {
     public void getStatus() {
         System.out.println("User account status - child");
     }
+    public void logOut()
+    {
+        System.out.println("user logOut -child");
+    }
+
 }

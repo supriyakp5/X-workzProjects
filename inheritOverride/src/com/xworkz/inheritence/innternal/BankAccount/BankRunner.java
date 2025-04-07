@@ -27,5 +27,13 @@ public class BankRunner {
         b3.getBalance();
         b3.getAccountType();
         b3.getInterestRate();
+
+
+
+        System.out.println("____________casting_________");
+        Account account=new Account();
+        account.Bank(b1);
+        account.Bank(b2);
+        account.Bank(b3);
     }
 }

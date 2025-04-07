@@ -1,4 +1,4 @@
-package com.xworkz.inheritence.innternal.Writer;
+package com.xworkz.inheritence.innternal.Toolbox;
 
 public class ToolboxRunner {
     public static void main(String[] args) {

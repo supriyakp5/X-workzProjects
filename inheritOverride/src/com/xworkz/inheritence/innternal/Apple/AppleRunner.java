@@ -25,6 +25,13 @@ public class AppleRunner {
             greenApple.boostImmunity();
             greenApple.availableInSeasons();
             greenApple.usedInCooking();
+
+
+            System.out.println("_____________casting_____________");
+            Fruit fruit=new Fruit();
+            fruit.eat(apple);
+            fruit.eat(apple1);
+            fruit.eat(greenApple);
         }
     }
 

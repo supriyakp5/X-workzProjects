@@ -26,5 +26,15 @@ public class BookstoreRunner {
         b3.getOpeningHours();
         b3.getBookCount();
         b3.getOwner();
+
+
+
+        System.out.println("________________casting_________");
+        GenralBook genralBook=new GenralBook();
+        genralBook.siriBook(b1);
+        genralBook.siriBook(b2);
+        genralBook.siriBook(b3);
+
+
     }
 }

@@ -17,5 +17,11 @@ public class AnimalRunner {
         Cat cat=new Cat();
         cat.move();
         cat.sound();
+
+        System.out.println("__________________casting__________");
+        Birds birds=new Birds();
+        birds.pigeons(animal);
+        birds.pigeons(animal1);
+        birds.pigeons(cat);
     }
 }

@@ -1,4 +1,4 @@
-package com.xworkz.inheritence.innternal;
+package com.xworkz.inheritence.innternal.Toolbox;
 
 public class Wrench extends Toolbox{
     public Wrench() {

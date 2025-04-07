@@ -20,12 +20,22 @@ public class ApplianceRunner {
 
         System.out.println("---------------");
 
-        WashingMachine a3 = new WashingMachine();
-        a3.turnOn();
-        a3.turnOff();
-        a3.getBrand();
-        a3.getType();
-        a3.getWarranty();
+        WashingMachine washingMachine= new WashingMachine();
+        washingMachine .turnOn();
+        washingMachine.turnOff();
+        washingMachine .getBrand();
+        washingMachine.getType();
+        washingMachine .getWarranty();
+
+
+
+
+        System.out.println("______________casting___________");
+
+        HomeAppliance homeAppliance=new HomeAppliance();
+        homeAppliance.dishwash(a1);
+        homeAppliance.dishwash(a2);
+        homeAppliance.dishwash(washingMachine);
     }
     }
 

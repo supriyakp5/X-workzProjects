@@ -30,4 +30,8 @@ public class House extends Building{
     public void getMaterial() {
         System.out.println("House material - child");
     }
+    public void home()
+    {
+        System.out.println("new method --child");
+    }
 }
