@@ -23,6 +23,13 @@ public class CameraRunner {
         c3.record();
         c3.zoom();
         c3.switchMode();
+
+
+        System.out.println("______________casting__________");
+        TslrCamera tslrCamera=new TslrCamera();
+        tslrCamera.phoneCamera(c1);
+        tslrCamera.phoneCamera(c2);
+        tslrCamera.phoneCamera(c3);
     }
 
 }

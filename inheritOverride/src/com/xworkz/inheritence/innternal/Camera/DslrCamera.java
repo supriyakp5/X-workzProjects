@@ -25,4 +25,8 @@ public class DslrCamera extends Camera{
     public void switchMode() {
         System.out.println("Switching between manual and auto mode - child");
     }
+    public void cameraMan()
+    {
+        System.out.println("new method --child");
+    }
 }
