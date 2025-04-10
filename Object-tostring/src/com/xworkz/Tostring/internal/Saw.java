@@ -19,4 +19,10 @@ public class Saw {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 72;
+    }
+
 }

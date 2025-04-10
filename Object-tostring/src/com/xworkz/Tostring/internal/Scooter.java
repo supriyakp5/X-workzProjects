@@ -19,4 +19,10 @@ public class Scooter {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 74;
+    }
+
 }

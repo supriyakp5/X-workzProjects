@@ -19,4 +19,10 @@ public class Drawer {
                 ", depth=" + depth + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 36;
+    }
+
 }

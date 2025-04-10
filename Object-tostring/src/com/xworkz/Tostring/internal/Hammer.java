@@ -19,5 +19,11 @@ public class Hammer {
                 ", price=" + price +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 41;
     }
+
+}
 

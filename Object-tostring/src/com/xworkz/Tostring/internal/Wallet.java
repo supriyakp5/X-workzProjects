@@ -19,4 +19,10 @@ public class Wallet {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 86;
+    }
+
 }

@@ -19,4 +19,10 @@ public class Bowl {
                 ", depth=" + depth + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 15;
+    }
+
 }

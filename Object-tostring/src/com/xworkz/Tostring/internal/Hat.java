@@ -19,4 +19,10 @@ public class Hat {
                 ", cost=" + cost +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 42;
+    }
+
 }

@@ -19,5 +19,11 @@ public class Monitor {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 56;
+    }
+
 
 }

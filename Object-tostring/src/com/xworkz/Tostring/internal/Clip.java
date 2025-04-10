@@ -19,4 +19,10 @@ public class Clip {
                 ", length=" + length + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 25;
+    }
+
 }

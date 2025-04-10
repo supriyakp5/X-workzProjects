@@ -19,4 +19,10 @@ public class Clock {
                 ", diameter=" + diameter + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 26;
+    }
+
 }

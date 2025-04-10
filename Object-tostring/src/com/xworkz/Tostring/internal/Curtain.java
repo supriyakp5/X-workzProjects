@@ -19,5 +19,11 @@ public class Curtain {
                 ", price=" + price +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 32;
+    }
+
 
 }

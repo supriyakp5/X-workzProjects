@@ -19,5 +19,11 @@ public class CoffeeMaker {
                 ", powerUsage=" + powerUsage + " watts" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 29;
+    }
+
 }
 

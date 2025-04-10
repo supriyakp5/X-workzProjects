@@ -19,5 +19,11 @@ public class Cable {
                 ", thickness=" + thickness + " mm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 19;
+    }
+
 
 }

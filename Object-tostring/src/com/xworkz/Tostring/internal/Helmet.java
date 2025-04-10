@@ -19,5 +19,11 @@ public class Helmet {
                 ", price=" + price +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 43;
+    }
+
 
 }

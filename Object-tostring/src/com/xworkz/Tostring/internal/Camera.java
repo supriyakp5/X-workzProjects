@@ -19,4 +19,10 @@ public class Camera {
                 ", zoomLevel=" + zoomLevel + "x" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 21;
+    }
+
 }

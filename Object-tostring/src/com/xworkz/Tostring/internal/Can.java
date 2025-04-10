@@ -19,4 +19,10 @@ public class Can {
                 ", diameter=" + diameter + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 22;
+    }
+
 }

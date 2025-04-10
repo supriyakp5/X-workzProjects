@@ -19,4 +19,10 @@ public class Blanket {
                 ", length=" + length + " meters" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 1;
+    }
+
 }

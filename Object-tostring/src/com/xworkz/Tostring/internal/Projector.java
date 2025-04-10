@@ -19,5 +19,11 @@ public class Projector {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 68;
     }
+
+}
 

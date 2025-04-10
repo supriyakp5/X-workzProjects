@@ -19,4 +19,10 @@ public class Frame {
                 ", height=" + height +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 38;
+    }
+
 }

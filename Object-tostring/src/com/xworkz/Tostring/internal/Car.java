@@ -18,5 +18,11 @@ public class Car {
                 ", engineCapacity=" + engineCapacity + " L" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 23;
+    }
+
 }
 

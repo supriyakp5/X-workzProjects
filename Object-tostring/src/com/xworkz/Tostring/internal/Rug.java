@@ -19,4 +19,10 @@ public class Rug {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 70;
+    }
+
 }

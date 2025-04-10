@@ -19,5 +19,11 @@ public class Phone {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 63;
+    }
+
 }
 

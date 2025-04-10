@@ -19,5 +19,11 @@ public class Grinder {
                 ", cost=" + cost +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 40;
+    }
+
 
 }

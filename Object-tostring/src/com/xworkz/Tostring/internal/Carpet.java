@@ -19,4 +19,9 @@ public class Carpet {
                 ", price=$" + price +
                 '}';
     }
+    @Override
+    public int hashCode() {
+        return 24;
+    }
+
 }

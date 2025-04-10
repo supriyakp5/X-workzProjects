@@ -19,4 +19,10 @@ public class Blender {
                 ", capacity=" + capacity + " liters" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 1;
+    }
+
 }

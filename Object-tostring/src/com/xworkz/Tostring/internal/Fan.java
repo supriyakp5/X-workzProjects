@@ -19,4 +19,10 @@ public class Fan {
                 ", powerConsumption=" + powerConsumption +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 33;
+    }
+
 }

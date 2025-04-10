@@ -19,4 +19,10 @@ public class Door {
                 ", width=" + width + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 34;
+    }
+
 }

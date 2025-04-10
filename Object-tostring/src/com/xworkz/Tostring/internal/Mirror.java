@@ -19,5 +19,11 @@ public class Mirror {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 54;
+    }
+
 
 }

@@ -19,4 +19,10 @@ public class Notebook {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 59;
+    }
+
 }

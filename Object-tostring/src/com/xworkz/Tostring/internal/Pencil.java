@@ -19,4 +19,10 @@ public class Pencil {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 62;
+    }
+
 }

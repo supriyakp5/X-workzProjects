@@ -19,4 +19,10 @@ public class Stapler {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 81;
+    }
+
 }

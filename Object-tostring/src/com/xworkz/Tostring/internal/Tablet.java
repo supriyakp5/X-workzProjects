@@ -19,4 +19,10 @@ public class Tablet {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 83;
+    }
+
 }

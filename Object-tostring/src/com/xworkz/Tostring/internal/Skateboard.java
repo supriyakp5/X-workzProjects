@@ -19,4 +19,10 @@ public class Skateboard {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 78;
+    }
+
 }

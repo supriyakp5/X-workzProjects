@@ -19,5 +19,11 @@ public class Printer {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 67;
+    }
+
 }
 

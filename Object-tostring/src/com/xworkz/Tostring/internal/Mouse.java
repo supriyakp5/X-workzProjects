@@ -19,7 +19,12 @@ public class Mouse {
                 ", value=" + value +
                 '}';
     }
-
-
+    @Override
+    public int hashCode()
+    {
+        return 57;
     }
+
+
+
 }

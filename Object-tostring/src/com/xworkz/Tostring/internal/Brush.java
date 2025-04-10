@@ -19,4 +19,10 @@ public class Brush {
                 ", length=" + length + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 17;
+    }
+
 }

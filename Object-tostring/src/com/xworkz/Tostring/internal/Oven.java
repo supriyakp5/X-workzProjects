@@ -19,4 +19,10 @@ public class Oven {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 60;
+    }
+
 }

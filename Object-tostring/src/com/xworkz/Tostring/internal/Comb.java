@@ -18,5 +18,11 @@ public class Comb {
                 ", length=" + length + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 30;
+    }
+
 
 }

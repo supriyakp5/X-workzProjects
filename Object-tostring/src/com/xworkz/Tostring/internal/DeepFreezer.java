@@ -19,4 +19,10 @@ public class DeepFreezer {
                 ", powerConsumption=" + powerConsumption + " kWh" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 33;
+    }
+
 }

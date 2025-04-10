@@ -19,5 +19,11 @@ public class Chair {
                 ", height=" + height + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 24;
+    }
+
 
 }

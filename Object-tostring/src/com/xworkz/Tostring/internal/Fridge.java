@@ -19,5 +19,11 @@ public class Fridge {
                 ", temperature=" + temperature +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 39;
+    }
+
 
 }

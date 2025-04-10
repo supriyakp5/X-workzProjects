@@ -19,4 +19,10 @@ public class Toilet {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 85;
+    }
+
 }

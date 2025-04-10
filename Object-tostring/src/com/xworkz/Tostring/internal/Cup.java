@@ -19,5 +19,11 @@ public class Cup {
                 ", diameter=" + diameter + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 32;
+    }
+
 
 }

@@ -18,4 +18,10 @@ public class Glove {
                 ", price=" + price +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 39;
+    }
+
 }

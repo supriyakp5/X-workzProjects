@@ -19,5 +19,11 @@ public class Drill {
                 ", weightKg=" + weightKg +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 38;
+    }
+
 
 }

@@ -19,4 +19,10 @@ public class Speaker {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 80;
+    }
+
 }

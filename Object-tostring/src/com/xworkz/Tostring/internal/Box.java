@@ -19,4 +19,10 @@ public class Box {
                 ", weight=" + weight + " kg" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 16;
+    }
+
 }

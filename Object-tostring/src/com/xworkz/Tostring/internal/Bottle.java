@@ -19,4 +19,10 @@ public class Bottle {
                 ", height=" + height + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 1;
+    }
+
 }

@@ -19,4 +19,10 @@ public class Eraser {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 32;
+    }
+
 }

@@ -19,5 +19,11 @@ public class FanHeater {
                 ", wattage=" + wattage +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 34;
     }
+
+}
 

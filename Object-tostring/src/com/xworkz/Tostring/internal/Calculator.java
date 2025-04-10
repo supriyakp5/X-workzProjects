@@ -19,4 +19,10 @@ public class Calculator {
                 ", screenSize=" + screenSize + " inches" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 20;
+    }
+
 }

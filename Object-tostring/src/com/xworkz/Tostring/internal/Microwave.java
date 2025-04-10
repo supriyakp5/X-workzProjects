@@ -19,4 +19,10 @@ public class Microwave {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 52;
+    }
+
 }

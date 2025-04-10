@@ -19,4 +19,10 @@ public class BrushHolder {
                 ", height=" + height + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 17;
+    }
+
 }

@@ -19,4 +19,10 @@ public class MirrorStand {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 55;
+    }
+
 }

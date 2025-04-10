@@ -19,5 +19,11 @@ public class Bag {
                 ", price=" + price +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 2;
+    }
+
 }
 

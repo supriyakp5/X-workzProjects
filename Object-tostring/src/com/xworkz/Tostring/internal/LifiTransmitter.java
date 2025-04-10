@@ -19,6 +19,12 @@ public class LifiTransmitter {
     public String toString() {
         return "LifiTransmitter [intensity=" + intensity + " ,frequency=" + frequency + ",status=" + status + ",dataRate=" + dataRate + "]";
     }
+    @Override
+    public int hashCode()
+    {
+        return 51;
+    }
+
 }
 
 

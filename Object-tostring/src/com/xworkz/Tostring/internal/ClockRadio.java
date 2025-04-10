@@ -19,4 +19,10 @@ public class ClockRadio {
                 ", frequencyRange=" + frequencyRange + " MHz" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 27;
+    }
+
 }

@@ -19,4 +19,10 @@ public class Sink {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 77;
+    }
+
 }

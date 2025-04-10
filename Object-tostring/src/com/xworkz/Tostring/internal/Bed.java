@@ -19,4 +19,10 @@ public class Bed {
                 ", price=" + price +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 1;
+    }
+
 }

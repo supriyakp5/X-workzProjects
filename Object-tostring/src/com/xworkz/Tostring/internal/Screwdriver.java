@@ -19,4 +19,10 @@ public class Screwdriver {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 75;
+    }
+
 }

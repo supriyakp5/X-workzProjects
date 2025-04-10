@@ -19,4 +19,10 @@ public class Router {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 70;
+    }
+
 }

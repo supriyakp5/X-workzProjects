@@ -19,4 +19,10 @@ public class Sofa {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 79;
+    }
+
 }

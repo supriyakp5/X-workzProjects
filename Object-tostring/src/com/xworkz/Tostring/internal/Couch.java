@@ -19,4 +19,10 @@ public class Couch {
                 ", width=" + width + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 31;
+    }
+
 }

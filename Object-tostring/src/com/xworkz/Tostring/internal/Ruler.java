@@ -19,4 +19,10 @@ public class Ruler {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 71;
+    }
+
 }

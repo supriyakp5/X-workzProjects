@@ -19,4 +19,10 @@ public class AirConditioner {
                 ", powerConsumption=" + powerConsumption +
                 " kWh}";
     }
+    @Override
+    public int hashCode()
+    {
+        return 1;
+    }
+
 }

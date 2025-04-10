@@ -19,4 +19,10 @@ public class TVStand {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 84;
+    }
+
 }

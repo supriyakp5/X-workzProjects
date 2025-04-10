@@ -19,5 +19,11 @@ public class Folder {
                 ", thickness=" + thickness +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 36;
+    }
+
 
 }

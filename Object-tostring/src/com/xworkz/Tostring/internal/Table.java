@@ -19,4 +19,10 @@ public class Table {
                 ", value=" + value +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 82;
+    }
+
 }

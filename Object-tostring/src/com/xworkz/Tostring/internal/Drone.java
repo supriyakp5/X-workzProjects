@@ -19,4 +19,10 @@ public class Drone {
                 ", rangeKm=" + rangeKm +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 31;
+    }
+
 }

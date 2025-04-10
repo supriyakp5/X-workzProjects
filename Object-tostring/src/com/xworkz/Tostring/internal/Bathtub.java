@@ -19,6 +19,12 @@ public class Bathtub {
                 ", depth=" + depth + " inches" +
                 '}';
     }
-
-
+    @Override
+    public int hashCode()
+    {
+        return 3;
     }
+
+
+
+}

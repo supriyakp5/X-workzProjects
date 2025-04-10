@@ -19,5 +19,11 @@ public class Bucket {
                 ", height=" + height + " cm" +
                 '}';
     }
+    @Override
+    public int hashCode()
+    {
+        return 18;
     }
+
+}
 
