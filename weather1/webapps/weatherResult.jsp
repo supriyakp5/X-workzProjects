@@ -8,10 +8,10 @@
 </head>
 <body>
 <h1>RUN</h1>
-<h2>Location:${lac}</h2>
-<h2>Captured:${cap}</h2>
-<h2>Temperature:${tem}</h2>
-<h2>Recorded:${rec}</h2>
+<h2>Location: ${dto.lac}</h2>
+<h2>Captured By: ${dto.cap}</h2>
+<h2>Temperature: ${dto.tem}</h2>
+<h2>Recorded By: ${dto.rec}</h2>
 
 </body>
 </html>
